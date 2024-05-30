@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/huyen/Hardhat DigitalAsset/contracts/DigitalAsset.sol": {
+      "lastModificationDate": 1716589645346,
+      "contentHash": "77cbbcf66913a2dfb359c34b7f3e3dc5",
+      "sourceName": "contracts/DigitalAsset.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AbstractAsset",
+        "ArtAsset",
+        "AssetFactory",
+        "IDigitalAsset",
+        "MusicAsset"
+      ]
+    }
+  }
+}
