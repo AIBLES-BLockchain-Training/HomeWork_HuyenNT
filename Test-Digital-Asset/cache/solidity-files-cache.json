@@ -40,6 +40,46 @@
         "IDigitalAsset",
         "MusicAsset"
       ]
+    },
+    "/home/huyen/HomeWork_HuyenNT/Test-Digital-Asset/contracts/DigitalAsset.sol": {
+      "lastModificationDate": 1717171172603,
+      "contentHash": "52a243d354c652a1fdd33ae225578a05",
+      "sourceName": "contracts/DigitalAsset.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AbstractAsset",
+        "ArtAsset",
+        "AssetFactory",
+        "IDigitalAsset",
+        "MusicAsset"
+      ]
     }
   }
 }
